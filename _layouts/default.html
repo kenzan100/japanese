@@ -22,7 +22,7 @@
           <h4 class="list_header">Recent Posts</h4>
           {% for post in site.posts %}
           <div>
-            <a href="{{ post.url }}">{{ post.title }}</a>
+            {{ post.title }}
           </div>
           {% endfor %}
         </div>
@@ -36,6 +36,6 @@
       </footer>
     </div>
     <script src="javascripts/scale.fix.js"></script>
-    
+
   </body>
 </html>
